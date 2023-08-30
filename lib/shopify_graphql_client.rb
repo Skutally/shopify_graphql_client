@@ -25,7 +25,7 @@ module ShopifyGraphQLClient
     end
 
     def query(*args)
-      result = client.query(*args)
+      result = client.query(args[0], **(args[1] || {}))
       errors = result.errors
 
       if result.errors&.any?
