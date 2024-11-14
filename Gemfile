@@ -9,9 +9,3 @@ gem "shopify_api", ">= 7.0.1"
 
 gem "pry"
 gem "dotenv"
-
-gem "pry-byebug", "~> 3.7"
-
-gem "pry-rescue", "~> 1.5"
-
-gem "rspec", "~> 3.8"
